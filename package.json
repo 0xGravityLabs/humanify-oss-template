@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/0xGravityLabs/humanify-oss-template",
   "author": "name <somewhat@nexai.inc>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
