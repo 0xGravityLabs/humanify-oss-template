@@ -6,6 +6,6 @@
   "author": "name <somewhat@nexai.inc>",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.20"
   }
 }
