@@ -1,0 +1,22 @@
+name: Issue Comment on Bad Format
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  create-comment:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.body, 'Describe') == false
+    steps:
+      - name: Create comment
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: 'create-comment'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Hello ${{ github.event.issue.user.login }}. Please issue using our template.
+
+            你好 ${{ github.event.issue.user.login }}。请使用模板创建 issue.
+          emoji: '+1' or '+1,heart'
