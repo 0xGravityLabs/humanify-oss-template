@@ -19,4 +19,3 @@ jobs:
             Hello ${{ github.event.issue.user.login }}. Please issue using our template.
 
             你好 ${{ github.event.issue.user.login }}。请使用模板创建 issue.
-          emoji: '+1' or '+1,heart'
