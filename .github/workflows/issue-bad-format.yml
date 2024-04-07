@@ -1,4 +1,4 @@
-name: Issue Comment on Bad Format
+name: issue-comment-on-bad-format
 
 on:
   issues:
@@ -17,5 +17,3 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           body: |
             Hello ${{ github.event.issue.user.login }}. Please issue using our template.
-
-            你好 ${{ github.event.issue.user.login }}。请使用模板创建 issue.
