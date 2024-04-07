@@ -6,7 +6,7 @@
 - [ ] rewrite readme.md([shields](https://github.com/badges/shields), lanuage, slogan, competing products, demos in GIF/SPA, routing to getting-started/API-reference/contributing)
 - [ ] rewrite CONTRIBUTING.md
 - [ ] configure dependabot: goto 'setting' and enable all dependabot items
-- [ ] configure git hooks
+- [ ] configure git hooks(e.g. `cp hooks/commit-msg .git/hooks/commit-msg`)
 - [ ] check license
 - [ ] workflow related items: 
   - [ ] replace the 'package-ecosystem' in .github/dependabot.yml with your language-specific package manager
