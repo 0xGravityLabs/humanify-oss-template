@@ -6,7 +6,7 @@
 
 <a href="https://github.com/0xGravityLabs/humanify-oss-template/actions/workflows/release-please.yml"><img src="https://img.shields.io/github/actions/workflow/status/0xGravityLabs/humanify-oss-template/release-please.yml"></a>
 <a href="https://github.com/0xGravityLabs/humanify-oss-template"><img src="https://img.shields.io/github/license/0xGravityLabs/humanify-oss-template"></a>
-<a href="https://github.com/0xGravityLabs/humanify-oss-template"><img src="https://img.shields.io/github/v/tag/0xGravityLabs/humanify-oss-template"></a>
+<a href="https://github.com/0xGravityLabs/humanify-oss-template"><img src="https://img.shields.io/github/v/release/0xGravityLabs/humanify-oss-template"></a>
 
 > Add other translations or delete this section
 
