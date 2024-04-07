@@ -12,6 +12,7 @@
   - [ ] replace the 'package-ecosystem' in .github/dependabot.yml with your language-specific package manager
   - [ ] replace the 'release-type' in .github/release.yml with your language-specific value([refer here](https://github.com/googleapis/release-please?tab=readme-ov-file#strategy-language-types-supported))
   - [ ] rewrite the issue and pr templates in .github if needed
+  - [ ] add language-specific implmentations in .github/workflows/test.yml
 
 # Version Releasement(DELETEME)
 
