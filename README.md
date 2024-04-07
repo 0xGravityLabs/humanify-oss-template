@@ -3,7 +3,7 @@
 > Follow this template and complete todos. DON'T leave any template related content.
 
 - [ ] read *Dev Specification* and *OSS Engineering* carefully, which mentioned how to write sound readme and contributing docs
-- [ ] rewrite readme.md([shields](https://github.com/badges/shields), lanuage, slogan, competing products, demos in GIF/SPA, routing to getting-started/API-reference/contributing)
+- [ ] rewrite readme.md([shields](https://github.com/badges/shields), lanuage, slogan, competing products, demos in GIF/SPA, contributors(refer to insights section), routing to getting-started/API-reference/contributing)
 - [ ] rewrite CONTRIBUTING.md
 - [ ] configure dependabot: goto 'setting' and enable all dependabot items
 - [ ] configure git hooks(e.g. `cp hooks/commit-msg .git/hooks/commit-msg`)
