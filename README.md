@@ -25,8 +25,23 @@ Help us [translate]().
 - [ ] Workflow related items: 
   - [ ] Replace the 'package-ecosystem' in .github/dependabot.yml with your language-specific package manager
   - [ ] Replace the 'release-type' in .github/release.yml with your language-specific value([refer here](https://github.com/googleapis/release-please?tab=readme-ov-file#strategy-language-types-supported))
-  - [ ] Rewrite the issue and pr templates in .github if needed
+  - [ ] Rewrite the issue and PR templates in .github if needed
   - [ ] Add language-specific implmentations in .github/workflows/test.yml, e.g. lint, e2e tests, fuzz tests
+
+### Development Specification
+
+- Follow [conventional commits](https://www.conventionalcommits.org) to write standard commit messages that can turn to changelogs automatically
+  - `feat(api)!: send an email to the customer when a product is shipped`
+  - `fix: prevent racing of requests`
+  - `docs: correct spelling of CHANGELOG`
+- Follow [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) or other branch model to organize your branches
+  - `feat/myself/txt2img-midjourney`
+  - `fix/myself/oom-outpaint`
+- Use [Github Project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) or other tools like [Jira](https://www.atlassian.com/software/jira) for project management
+- Use [Github Actions](https://docs.github.com/en/actions) or other CI/CD solutions to automate your workflow, including build, test, etc.
+- Use [Dependabot](https://docs.github.com/zh/code-security/getting-started/dependabot-quickstart-guide) or other security tools like [CodeQL](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql) to find out vulnerable dependencies or implementations
+- Follow [RF3986](https://www.rfc-editor.org/rfc/rfc3986) to standerize URLs
+  - `https://domain/v1/get-user?user_id=xxxx&other_params=xxxx`
 
 ### Version Releasement
 
